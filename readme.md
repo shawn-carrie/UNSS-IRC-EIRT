@@ -1,6 +1,9 @@
 
 ### TNS		–	UNSS 	–	IRC 	– 	EIRT
-The New School • United Nations Summer Study • International Rescue Committee • Economic Integration Research Tool
+The New School 
+	United Nations Summer Study 
+		International Rescue Committee
+			Economic Integration Research Tool
 
 
 # Outline
