@@ -2710,7 +2710,7 @@
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: url("images/overlay4.png"), url("../../images/pic07.jpg");
 			background-size: auto,							cover;
 		}
 
@@ -3419,3 +3419,29 @@
 			}
 
 	}
+	
+	
+#parappa {
+		position: relative;
+		padding: 4em 0 2em 0;
+		background-image: url("images/telephasic/header.svg");
+		background-image: url("images/overlay.png"), url("images/telephasic/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url("images/telephasic/overlay.png"), url("images/telephasic/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url("images/telephasic/overlay.png"), url("images/telephasic/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url("images/telephasic/overlay.png"), url("images/telephasic/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-color: #f08c89;
+		background-size: 100% 620%;
+		background-size: 128px 128px, 100% 620%, auto;
+		background-repeat: repeat, no-repeat, no-repeat;
+	}
+
+	
+/* bios hover-hide */
+
+div.bios{
+	display: none;
+}
+
+ul.major-icons:hover + .bios{
+	display: block;
+}
